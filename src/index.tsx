@@ -6,7 +6,7 @@ import {
     ApolloClient,
     InMemoryCache,
     ApolloProvider
-} from "@apollo/client";
+} from '@apollo/client';
 
 const client = new ApolloClient({
     uri: 'https://vortex.worldofwarships.ru/api/graphql/glossary/',

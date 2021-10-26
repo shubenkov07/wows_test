@@ -6,7 +6,7 @@ interface ShipProps {
     ship: IShip
 }
 
-export const Ship = ({ ship }: ShipProps) => {
+export const Ship: React.FC<ShipProps> = ({ ship }) => {
     return (
         <div className="ship">
             <div className="ship__img">

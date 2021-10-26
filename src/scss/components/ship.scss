@@ -6,6 +6,8 @@
   color: $lightBrown;
   position: relative;
   &__img {
+    width: 435px;
+    height: 256px;
     img {
       max-width: 435px;
     }
